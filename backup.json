@@ -1,1 +1,85 @@
-
+{
+  "exercises": {
+    "Chest": [
+      {
+        "id": "ex_aydslqi",
+        "name": "Bench Press"
+      },
+      {
+        "id": "ex_r84745c",
+        "name": "Cable Fly"
+      }
+    ],
+    "Back": [
+      {
+        "id": "ex_n8v2zzd",
+        "name": "Deadlift"
+      },
+      {
+        "id": "ex_2ax9pc3",
+        "name": "Lat Pulldown"
+      },
+      {
+        "id": "ex_xkemmsy",
+        "name": "Seated Row"
+      }
+    ],
+    "Arms": [
+      {
+        "id": "ex_n63zihr",
+        "name": "Barbell Curl"
+      },
+      {
+        "id": "ex_5g2cogb",
+        "name": "Tricep Pushdown"
+      },
+      {
+        "id": "ex_s1lglxo",
+        "name": "Hammer Curl"
+      }
+    ],
+    "Shoulders": [
+      {
+        "id": "ex_2hspg3n",
+        "name": "Overhead Press"
+      },
+      {
+        "id": "ex_m6sr32n",
+        "name": "Lateral Raise"
+      },
+      {
+        "id": "ex_jzhcw0o",
+        "name": "Rear Delt Fly"
+      }
+    ],
+    "Legs": [
+      {
+        "id": "ex_dh8oclk",
+        "name": "Squat"
+      },
+      {
+        "id": "ex_aanvbtc",
+        "name": "Leg Press"
+      },
+      {
+        "id": "ex_uutdgzf",
+        "name": "Romanian Deadlift"
+      }
+    ],
+    "Forearms": [
+      {
+        "id": "ex_3apw1eu",
+        "name": "Wrist Curl"
+      },
+      {
+        "id": "ex_hi4u0tr",
+        "name": "Reverse Curl"
+      },
+      {
+        "id": "ex_5svwsbx",
+        "name": "Farmer's Carry"
+      }
+    ]
+  },
+  "workouts": {}
+}
