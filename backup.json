@@ -14,12 +14,12 @@
         "name": "Peck fly"
       },
       {
-        "id": "ex_gb6p02r",
-        "name": "Decline DB press"
-      },
-      {
         "id": "ex_pla2oy7",
         "name": "Pullover"
+      },
+      {
+        "id": "ex_1uju1vk",
+        "name": "Decline DB press"
       }
     ],
     "Back": [
@@ -93,5 +93,108 @@
       }
     ]
   },
-  "workouts": {}
+  "workouts": {
+    "2025-08-11": [
+      {
+        "category": "Chest",
+        "items": [
+          {
+            "id": "ex_aydslqi",
+            "name": "Bench Press",
+            "sets": [
+              {
+                "weight": 12.5,
+                "reps": 10
+              },
+              {
+                "weight": 12.5,
+                "reps": 11
+              },
+              {
+                "weight": 12.5,
+                "reps": 11
+              }
+            ],
+            "note": "Medium. Next 15 kg on last set"
+          },
+          {
+            "id": "ex_r84745c",
+            "name": "Cable Fly",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 15
+              },
+              {
+                "weight": 15,
+                "reps": 10
+              },
+              {
+                "weight": 15,
+                "reps": 10
+              }
+            ],
+            "note": "Next, full 15kg"
+          },
+          {
+            "id": "ex_xmn7uxl",
+            "name": "Peck fly",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 15
+              },
+              {
+                "weight": 15,
+                "reps": 10
+              },
+              {
+                "weight": 15,
+                "reps": 10
+              }
+            ],
+            "note": "Next full 15kg"
+          },
+          {
+            "id": "ex_gb6p02r",
+            "name": "Decline DB press",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 12
+              }
+            ],
+            "note": "Next full 15 reps"
+          },
+          {
+            "id": "ex_pla2oy7",
+            "name": "Pullover",
+            "sets": [
+              {
+                "weight": 7.5,
+                "reps": 15
+              },
+              {
+                "weight": 10,
+                "reps": 10
+              },
+              {
+                "weight": 10,
+                "reps": 10
+              }
+            ],
+            "note": "Next full 10kg"
+          }
+        ]
+      }
+    ]
+  }
 }
