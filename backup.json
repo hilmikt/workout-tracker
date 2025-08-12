@@ -24,16 +24,24 @@
     ],
     "Back": [
       {
-        "id": "ex_n8v2zzd",
-        "name": "Deadlift"
-      },
-      {
         "id": "ex_2ax9pc3",
         "name": "Lat Pulldown"
       },
       {
         "id": "ex_xkemmsy",
         "name": "Seated Row"
+      },
+      {
+        "id": "ex_rnr9xa1",
+        "name": "Deadlift"
+      },
+      {
+        "id": "ex_frpslq9",
+        "name": "Horizontal row (single)"
+      },
+      {
+        "id": "ex_l2wc4ni",
+        "name": "Dumbbell row"
       }
     ],
     "Arms": [
@@ -192,6 +200,108 @@
               }
             ],
             "note": "Next full 10kg"
+          }
+        ]
+      }
+    ],
+    "2025-08-12": [
+      {
+        "category": "Back",
+        "items": [
+          {
+            "id": "ex_2ax9pc3",
+            "name": "Lat Pulldown",
+            "sets": [
+              {
+                "weight": 25,
+                "reps": 12
+              },
+              {
+                "weight": 25,
+                "reps": 12
+              },
+              {
+                "weight": 25,
+                "reps": 10
+              }
+            ],
+            "note": "Next 30kg last set"
+          },
+          {
+            "id": "ex_xkemmsy",
+            "name": "Seated Row",
+            "sets": [
+              {
+                "weight": 19.5,
+                "reps": 20
+              },
+              {
+                "weight": 26,
+                "reps": 15
+              },
+              {
+                "weight": 26,
+                "reps": 15
+              }
+            ],
+            "note": "Next 32.5 on last rep"
+          },
+          {
+            "id": "ex_rnr9xa1",
+            "name": "Deadlift",
+            "sets": [
+              {
+                "weight": 20,
+                "reps": 12
+              },
+              {
+                "weight": 25,
+                "reps": 7
+              },
+              {
+                "weight": 25,
+                "reps": 7
+              }
+            ],
+            "note": "Next same kg. Use belt"
+          },
+          {
+            "id": "ex_frpslq9",
+            "name": "Horizontal row (single)",
+            "sets": [
+              {
+                "weight": 22.5,
+                "reps": 12
+              },
+              {
+                "weight": 22.5,
+                "reps": 8
+              },
+              {
+                "weight": 22.5,
+                "reps": 7
+              }
+            ],
+            "note": "Next full 12 reps"
+          },
+          {
+            "id": "ex_l2wc4ni",
+            "name": "Dumbbell row",
+            "sets": [
+              {
+                "weight": 12.5,
+                "reps": 15
+              },
+              {
+                "weight": 12.5,
+                "reps": 15
+              },
+              {
+                "weight": 12.5,
+                "reps": 15
+              }
+            ],
+            "note": ""
           }
         ]
       }
