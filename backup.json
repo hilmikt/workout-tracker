@@ -46,16 +46,24 @@
     ],
     "Arms": [
       {
-        "id": "ex_n63zihr",
-        "name": "Barbell Curl"
+        "id": "ex_4leml26",
+        "name": "Dumbbell curl"
       },
       {
-        "id": "ex_5g2cogb",
-        "name": "Tricep Pushdown"
+        "id": "ex_ssowwnt",
+        "name": "Preacher curl"
       },
       {
-        "id": "ex_s1lglxo",
-        "name": "Hammer Curl"
+        "id": "ex_yr3uedx",
+        "name": "Hammer (rope)"
+      },
+      {
+        "id": "ex_ttargiu",
+        "name": "Hammer dumbbell"
+      },
+      {
+        "id": "ex_572vnzg",
+        "name": "Triceps dips"
       }
     ],
     "Shoulders": [
@@ -305,6 +313,111 @@
           }
         ]
       }
+    ],
+    "2025-08-13": [
+      {
+        "category": "Arms",
+        "items": [
+          {
+            "id": "ex_4leml26",
+            "name": "Dumbbell curl",
+            "sets": [
+              {
+                "weight": 12.5,
+                "reps": 8
+              },
+              {
+                "weight": 12.5,
+                "reps": 7
+              },
+              {
+                "weight": 10,
+                "reps": 12
+              }
+            ],
+            "note": "Next last one set 12.5kg"
+          },
+          {
+            "id": "ex_ssowwnt",
+            "name": "Preacher curl",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 12
+              }
+            ],
+            "note": "Next full 12 reps"
+          },
+          {
+            "id": "ex_yr3uedx",
+            "name": "Hammer (rope)",
+            "sets": [
+              {
+                "weight": 20,
+                "reps": 11
+              },
+              {
+                "weight": 20,
+                "reps": 11
+              },
+              {
+                "weight": 20,
+                "reps": 11
+              }
+            ],
+            "note": "Next 25kg"
+          },
+          {
+            "id": "ex_ttargiu",
+            "name": "Hammer dumbbell",
+            "sets": [
+              {
+                "weight": 7.5,
+                "reps": 13
+              },
+              {
+                "weight": 7.5,
+                "reps": 12
+              },
+              {
+                "weight": 7.5,
+                "reps": 11
+              }
+            ],
+            "note": "Next 10kg"
+          },
+          {
+            "id": "ex_572vnzg",
+            "name": "Triceps dips",
+            "sets": [
+              {
+                "weight": 20,
+                "reps": 16
+              },
+              {
+                "weight": 22.5,
+                "reps": 15
+              },
+              {
+                "weight": 22.5,
+                "reps": 15
+              }
+            ],
+            "note": "Next 25kg last set"
+          }
+        ]
+      }
     ]
+  },
+  "stats": {
+    "bestStreak": 3
   }
 }
