@@ -7,7 +7,7 @@
   <style>
     :root{
       --bg: #0b0f14;
-      --card: #0e1522;
+      --card: #111827;
       --muted: #9aa4b2;
       --text: #e5e7eb;
       --accent: #3b82f6;
@@ -17,41 +17,13 @@
       --shadow: 0 10px 25px rgba(0,0,0,.25);
       --radius: 16px;
       --ease: cubic-bezier(.2,.8,.2,1);
-      --anim-fast: .18s; --anim: .32s; --anim-slow: .6s;
+      --anim-fast: .18s;
+      --anim: .32s;
+      --anim-slow: .6s;
     }
     *{box-sizing:border-box}
     html,body{height:100%}
     body{margin:0;font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:linear-gradient(180deg,#0a0e13,#0b1220 40%,#0d1930);color:var(--text)}
-
-    /* ---------- Background vibe (toggleable) ---------- */
-    body.bg-vibe::before{content:"";position:fixed;inset:0;z-index:-1;opacity:.12;pointer-events:none;background-image:
-      radial-gradient(1200px 800px at 10% -10%, rgba(59,130,246,.18), transparent 55%),
-      radial-gradient(900px 600px at 110% 10%, rgba(34,197,94,.14), transparent 60%),
-      url('data:image/svg+xml;utf8,\
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">\
-        <g fill="%23ffffff" opacity="0.25">\
-          <circle cx="80" cy="120" r="6"/>\
-          <rect x="240" y="90" width="48" height="10" rx="5"/>\
-          <rect x="290" y="90" width="8" height="10" rx="4"/>\
-          <rect x="310" y="90" width="48" height="10" rx="5"/>\
-          <circle cx="520" cy="160" r="7"/>\
-          <rect x="700" y="130" width="90" height="14" rx="7"/>\
-          <rect x="820" y="130" width="14" height="14" rx="7"/>\
-          <rect x="1040" y="80" width="60" height="10" rx="5"/>\
-          <path d="M100 300 q50 -40 100 0 t100 0" stroke="%23ffffff" stroke-width="3" fill="none" opacity="0.4"/>\
-          <rect x="120" y="520" width="22" height="70" rx="6"/>\
-          <rect x="150" y="510" width="22" height="80" rx="6"/>\
-          <rect x="180" y="500" width="22" height="90" rx="6"/>\
-          <circle cx="480" cy="520" r="7"/>\
-          <rect x="680" y="520" width="64" height="14" rx="7"/>\
-          <rect x="760" y="520" width="14" height="14" rx="7"/>\
-          <path d="M940 520 l40 -14 40 14" stroke="%23ffffff" stroke-width="3" fill="none" opacity="0.35"/>\
-        </g>\
-      </svg>');
-      background-size: cover, cover, 1200px 800px;
-      background-repeat: no-repeat, no-repeat, repeat;
-      background-position:center,center,top left;
-    }
 
     /* ---------- Animations ---------- */
     @media (prefers-reduced-motion: no-preference){
@@ -63,7 +35,7 @@
       @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
     }
 
-    .container{max-width:1100px;margin:0 auto;padding:14px}
+    .container{max-width:1100px;margin:0 auto;padding:16px}
     header{position:sticky;top:0;z-index:20;background:rgba(11,15,20,.7);backdrop-filter: blur(8px);border-bottom:1px solid rgba(255,255,255,.06)}
     header .container{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
     .logo{display:flex;align-items:center;gap:10px}
@@ -71,8 +43,8 @@
     .logo-badge svg{filter:drop-shadow(0 2px 8px rgba(59,130,246,.7))}
     h1{font-size: clamp(18px, 5vw, 24px); margin: 10px 0}
     .grid{display:grid;gap:14px}
-    @media(min-width:980px){.grid-cols-2{grid-template-columns:1.15fr .85fr}}
-    .card{background:linear-gradient(180deg,var(--card),#0b1220); border:1px solid rgba(255,255,255,.06); border-radius:var(--radius); box-shadow:var(--shadow)}
+    @media(min-width:900px){.grid-cols-2{grid-template-columns:1.2fr .8fr}}
+    .card{background:linear-gradient(180deg,#0e1622,#0b1220); border:1px solid rgba(255,255,255,.06); border-radius:var(--radius); box-shadow:var(--shadow)}
     .card.reveal{animation-delay:.05s}
     .card-header{padding:12px 14px;border-bottom:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
     .card-body{padding:14px}
@@ -123,7 +95,6 @@
     .dot.back{background:#22d3ee}
     .dot.forearm{background:#f59e0b}
     .dot.shoulder{background:#10b981}
-    .dot.streak{background:#ef4444}
     .selected{outline:2px solid var(--accent); transform: scale(1.02)}
 
     .day-details .workout-item{border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:10px;margin-bottom:10px;background:linear-gradient(180deg,#0f1828,#0b1424)}
@@ -131,18 +102,19 @@
     .set-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
     .set-grid .set{border:1px dashed rgba(255,255,255,.12);border-radius:10px;padding:8px;text-align:center}
 
-    /* ---------- Live Session (bottom sheet) ---------- */
-    .live-panel{position:fixed;left:0;right:0;bottom:0;z-index:90; background:linear-gradient(180deg,#0e1622,#0b1220); border-top-left-radius:16px;border-top-right-radius:16px;border:1px solid rgba(255,255,255,.08); box-shadow: 0 -10px 25px rgba(0,0,0,.35); transform: translateY(100%); transition: transform var(--anim) var(--ease)}
-    .live-panel.open{transform: translateY(0)}
-    .live-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.08)}
-    .live-body{padding:12px;max-height:min(70vh, 560px);overflow:auto}
-    .draft-indicator{font-size:12px;color:var(--muted)}
+    /* ---------- Modal (animated) ---------- */
+    .modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;padding:16px;z-index:100; opacity:0;visibility:hidden; pointer-events:none; transition: opacity var(--anim) var(--ease)}
+    .modal.open{opacity:1;visibility:visible; pointer-events:auto}
+    .modal .panel{width:min(900px,100%);max-height:90vh;overflow:auto;background:linear-gradient(180deg,#0e1622,#0b1220);border:1px solid rgba(255,255,255,.08);border-radius:16px;box-shadow:var(--shadow); transform: translateY(8px) scale(.98); opacity:0; transition: transform var(--anim) var(--ease), opacity var(--anim) var(--ease)}
+    .modal.open .panel{transform: translateY(0) scale(1); opacity:1}
+    .modal .panel .head{position:sticky;top:0;background:rgba(14,22,34,.9);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:space-between;padding:14px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .modal .panel .content{padding:14px}
     .exercise-row{border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px;margin-bottom:12px;background:linear-gradient(180deg,#0f1828,#0b1424)}
     .exercise-head{display:flex;align-items:center;gap:10px;justify-content:space-between;margin-bottom:10px}
     .exercise-name{font-weight:700}
     .set-table{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
     .set-cell{display:grid;grid-template-columns:1fr 1fr;gap:6px}
-    .live-actions{position:sticky;bottom:0;background:rgba(14,22,34,.9);backdrop-filter:blur(8px);display:flex;gap:8px;justify-content:space-between;padding:10px;border-top:1px solid rgba(255,255,255,.08)}
+    .footer-actions{position:sticky;bottom:0;background:rgba(14,22,34,.9);backdrop-filter:blur(8px);display:flex;gap:10px;justify-content:flex-end;padding:12px;border-top:1px solid rgba(255,255,255,.08)}
 
     /* ---------- Manage ---------- */
     details.manage{border:1px solid rgba(255,255,255,.08);border-radius:12px}
@@ -170,14 +142,14 @@
   <header class="reveal">
     <div class="container">
       <div class="logo">
-        <div class="logo-badge" aria-hidden="true">
+        <div class="logo-badge pulse" aria-hidden="true">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4 12h16M7 7h10M7 17h10" stroke="white" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
         <div>
           <h1>Workout Tracker (Local · Offline)</h1>
-          <div class="muted small">Manual GitHub backup. Vibe background optional.</div>
+          <div class="muted small">Manual GitHub backup. Streaks enabled.</div>
         </div>
       </div>
       <div class="right row">
@@ -212,7 +184,7 @@
       <div class="card-header">
         <div>
           <div class="section-title">Quick Start</div>
-          <div class="muted small">Pick a muscle group and start logging inline. Last session auto-fills.</div>
+          <div class="muted small">Pick a muscle group and hit <strong>Start Workout</strong>. Last session auto-fills.</div>
         </div>
       </div>
       <div class="card-body">
@@ -256,51 +228,50 @@
     </section>
   </main>
 
-  <!-- Live Session Bottom Sheet -->
-  <div class="live-panel" id="livePanel" aria-hidden="true">
-    <div class="live-head">
-      <div class="row" style="align-items:center">
-        <strong id="liveTitle">Live Session</strong>
-        <span class="draft-indicator" id="draftInfo"></span>
+  <!-- Workout Modal -->
+  <div class="modal" id="workoutModal" aria-hidden="true">
+    <div class="panel">
+      <div class="head">
+        <div>
+          <div class="section-title" id="modalTitle">Start Workout</div>
+          <div class="muted small" id="lastSessionInfo">Last session: –</div>
+        </div>
+        <div class="row">
+          <input type="date" id="modalDate" />
+          <button class="btn ghost" id="closeModal">Close</button>
+        </div>
       </div>
-      <div class="row">
-        <input type="date" id="liveDate" />
-        <button class="btn ghost" id="closeLive">Close</button>
+      <div class="content">
+        <div class="row" style="margin-bottom:12px">
+          <div class="grow"></div>
+          <input id="newExerciseName" placeholder="Add new exercise name…" />
+          <button id="addExerciseBtn" class="btn">Add Exercise</button>
+        </div>
+        <div id="exerciseContainer"></div>
       </div>
-    </div>
-    <div class="live-body">
-      <div class="row" style="margin-bottom:10px">
-        <div class="grow"></div>
-        <input id="liveNewExercise" placeholder="Add new exercise…" />
-        <button id="liveAddExercise" class="btn">Add</button>
-      </div>
-      <div id="liveContainer"></div>
-    </div>
-    <div class="live-actions">
-      <div class="row">
-        <button id="repeatLastBtn" class="btn ghost small">Repeat Last</button>
-      </div>
-      <div class="row">
-        <button id="discardDraftBtn" class="btn warn small">Discard Draft</button>
-        <button id="saveLiveBtn" class="btn success">Save Workout</button>
+      <div class="footer-actions">
+        <button id="deleteSessionBtn" class="btn danger" title="Delete this date's session for this group">Delete This Session</button>
+        <button id="saveWorkoutBtn" class="btn success">Save Workout</button>
       </div>
     </div>
   </div>
 
-  <!-- Settings Modal (GitHub + Display) -->
+  <!-- Settings Modal (GitHub Sync) -->
   <div class="modal" id="settingsModal" aria-hidden="true">
-    <div class="panel" style="width:min(900px,100%);max-height:90vh;overflow:auto;background:linear-gradient(180deg,#0e1622,#0b1220);border:1px solid rgba(255,255,255,.08);border-radius:16px;box-shadow:var(--shadow)">
-      <div class="head" style="position:sticky;top:0;background:rgba(14,22,34,.9);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:space-between;padding:14px;border-bottom:1px solid rgba(255,255,255,.08)">
+    <div class="panel">
+      <div class="head">
         <div>
-          <div class="section-title">Settings</div>
-          <div class="muted small">GitHub manual sync & display preferences.</div>
+          <div class="section-title">GitHub Sync Settings</div>
+          <div class="muted small">Optional: Push a JSON backup to a repo file and load from it on any device.</div>
         </div>
-        <div class="row"><button class="btn ghost" id="closeSettings">Close</button></div>
+        <div class="row">
+          <button class="btn ghost" id="closeSettings">Close</button>
+        </div>
       </div>
-      <div class="content" style="padding:14px">
-        <div class="settings-grid" style="display:grid;gap:10px;grid-template-columns:repeat(2,1fr)">
+      <div class="content">
+        <div class="settings-grid">
           <div>
-            <label>Owner (GitHub username)</label>
+            <label>Owner (your GitHub username)</label>
             <input id="ghOwner" placeholder="your-username" />
           </div>
           <div>
@@ -320,15 +291,15 @@
             <input id="ghToken" placeholder="ghp_…" />
           </div>
           <div>
-            <label>Background style</label>
-            <select id="bgStyle"><option value="minimal">Minimal</option><option value="vibe">Vibe</option></select>
+            <label>Auto-sync on save</label>
+            <select id="ghAuto"><option value="off">Off</option><option value="on">On</option></select>
           </div>
         </div>
         <div style="margin-top:12px" class="muted small">
-          Security: Token is stored only in this browser's localStorage and used directly against GitHub's API over HTTPS. Exports from this app never include your token.
+          Security notes: Token is stored only in this browser's localStorage and used directly against GitHub's API over HTTPS. Do not share your screen/exports with token visible. Exports from this app never include your token.
         </div>
       </div>
-      <div class="footer-actions" style="position:sticky;bottom:0;background:rgba(14,22,34,.9);backdrop-filter:blur(8px);display:flex;gap:10px;justify-content:flex-end;padding:12px;border-top:1px solid rgba(255,255,255,.08)">
+      <div class="footer-actions">
         <button id="saveSettings" class="btn success">Save Settings</button>
         <button id="loadFromGitHub" class="btn">Load From GitHub</button>
       </div>
@@ -342,7 +313,7 @@
       <h3></h3>
       <p>Templates: <span class="muted ex-count">0</span></p>
       <div class="row">
-        <button class="btn primary start-btn">Start</button>
+        <button class="btn primary start-btn">Start Workout</button>
         <button class="btn ghost edit-btn">Manage</button>
       </div>
     </div>
@@ -351,8 +322,8 @@
   <script>
     // ====== Data Model & Storage ======
     const CATEGORIES = ["Chest","Back","Arms","Shoulders","Legs","Forearms"]; // unique
-    const STORE_KEY = "gymTracker.v2"; // bumped version due to new stats
-    const SETTINGS_KEY = "gymTracker.settings"; // owner, repo, branch, path, bg
+    const STORE_KEY = "gymTracker.v3"; // bump for streaks
+    const SETTINGS_KEY = "gymTracker.settings"; // owner, repo, branch, path, auto
     const TOKEN_KEY = "gymTracker.token";       // stored separately
 
     const initialState = () => ({
@@ -385,11 +356,11 @@
         return parsed;
       }catch(e){ console.warn('Failed to load, resetting', e); return initialState(); }
     }
-    function save(){ localStorage.setItem(STORE_KEY, JSON.stringify(state)); renderAll(); }
+    function save(){ localStorage.setItem(STORE_KEY, JSON.stringify(state)); renderAll(); maybeAutoSync(); }
 
     function loadSettings(){
-      try{ return JSON.parse(localStorage.getItem(SETTINGS_KEY)) || { owner:'', repo:'', branch:'main', path:'backup.json', bg:'minimal' }; }
-      catch{ return { owner:'', repo:'', branch:'main', path:'backup.json', bg:'minimal' }; }
+      try{ return JSON.parse(localStorage.getItem(SETTINGS_KEY)) || { owner:'', repo:'', branch:'main', path:'backup.json', auto:'off' }; }
+      catch{ return { owner:'', repo:'', branch:'main', path:'backup.json', auto:'off' }; }
     }
     function saveSettings(s){ localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); }
     function getToken(){ return localStorage.getItem(TOKEN_KEY)||''; }
@@ -401,13 +372,9 @@
     let ui = {
       currentMonth: (()=>{ const d=new Date(); return new Date(d.getFullYear(), d.getMonth(), 1); })(),
       selectedDate: dateKey(new Date()),
-      liveCategory: null,
-      liveItems: [],
-      liveDraftRestored: false,
-      streakSpan: new Set(),
+      modalCategory: null,
+      modalItems: [],
     };
-
-    applyBg();
 
     // ====== Utilities ======
     function pad(n){return n<10?"0"+n:""+n}
@@ -417,16 +384,6 @@
     function cap(s){ return s.charAt(0).toUpperCase()+s.slice(1).toLowerCase(); }
     function escapeHtml(s){ return (s||'').replace(/[&<>"]+/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c])); }
     function cssEscape(s){ return s.replace(/[^a-z0-9]/gi,'-'); }
-    function addDays(d, n){ const x=new Date(d); x.setDate(x.getDate()+n); return x; }
-
-    // ====== IndexedDB Drafts (with localStorage fallback) ======
-    let idb=null; let idbReady=false; let idbQueue=[];
-    try{ const open = indexedDB.open('gymTrackerDB',1); open.onupgradeneeded = (e)=>{ const db=e.target.result; if(!db.objectStoreNames.contains('drafts')) db.createObjectStore('drafts',{keyPath:'key'}); }; open.onsuccess=(e)=>{ idb=e.target.result; idbReady=true; idbQueue.forEach(fn=>fn()); idbQueue=[]; }; open.onerror=()=>{ idbReady=false; } }catch{ idbReady=false; }
-    function withDB(fn){ if(idbReady && idb) fn(); else idbQueue.push(fn); }
-    function draftKey(dk, cat){ return `${dk}|${cat}`; }
-    function setDraft(dk, cat, data){ const key=draftKey(dk,cat); const payload={key, data, updatedAt: Date.now()}; if(idbReady&&idb){ withDB(()=>{ const tx=idb.transaction('drafts','readwrite'); tx.objectStore('drafts').put(payload); }); } else { localStorage.setItem('draft:'+key, JSON.stringify(payload)); } }
-    function getDraft(dk, cat){ return new Promise((resolve)=>{ const key=draftKey(dk,cat); if(idbReady&&idb){ withDB(()=>{ const tx=idb.transaction('drafts','readonly'); const req=tx.objectStore('drafts').get(key); req.onsuccess=()=> resolve(req.result||null); req.onerror=()=> resolve(null); }); } else { try{ const raw=localStorage.getItem('draft:'+key); resolve(raw?JSON.parse(raw):null); }catch{ resolve(null); } } }); }
-    function clearDraft(dk, cat){ const key=draftKey(dk,cat); if(idbReady&&idb){ withDB(()=>{ const tx=idb.transaction('drafts','readwrite'); tx.objectStore('drafts').delete(key); }); } else { localStorage.removeItem('draft:'+key); } }
 
     // ====== Calendar Rendering ======
     const calGrid = document.getElementById('calGrid');
@@ -458,7 +415,6 @@
         const ws = state.workouts[key]||[];
         const cats = [...new Set(ws.map(w=>w.category))];
         cats.forEach(c=>{ const dot=document.createElement('div'); dot.className='dot '+dotClass(c); dots.appendChild(dot); });
-        if(ui.streakSpan.has(key)){ const d=document.createElement('div'); d.className='dot streak'; dots.appendChild(d); }
         cell.appendChild(dots);
         const btn=document.createElement('button'); btn.onclick=()=>{ ui.selectedDate=key; renderAll(); }; cell.appendChild(btn);
         calGrid.appendChild(cell);
@@ -487,7 +443,7 @@
         const h=document.createElement('div'); h.className='workout-header';
         const t=document.createElement('div'); t.innerHTML = `<strong>${w.category}</strong> · ${w.items.length} exercise(s)`; h.appendChild(t);
         const row=document.createElement('div'); row.className='row';
-        const editBtn=document.createElement('button'); editBtn.className='btn ghost small'; editBtn.textContent='Edit'; editBtn.onclick=()=>openLive(w.category, ui.selectedDate);
+        const editBtn=document.createElement('button'); editBtn.className='btn ghost small'; editBtn.textContent='Edit'; editBtn.onclick=()=>openModal(w.category, ui.selectedDate);
         const delBtn=document.createElement('button'); delBtn.className='btn danger small'; delBtn.textContent='Delete'; delBtn.onclick=()=>{ if(confirm('Delete this workout?')){ state.workouts[ui.selectedDate].splice(idx,1); if(state.workouts[ui.selectedDate].length===0) delete state.workouts[ui.selectedDate]; save(); notify('Session deleted','success'); } };
         row.appendChild(editBtn); row.appendChild(delBtn); h.appendChild(row);
         wrap.appendChild(h);
@@ -516,7 +472,7 @@
         card.style.animationDelay = (i*60)+'ms';
         node.querySelector('h3').textContent = cat;
         node.querySelector('.ex-count').textContent = state.exercises[cat]?.length ?? 0;
-        node.querySelector('.start-btn').onclick = ()=> openLive(cat);
+        node.querySelector('.start-btn').onclick = ()=> openModal(cat);
         node.querySelector('.edit-btn').onclick = ()=> scrollToManage(cat);
         categoryGrid.appendChild(node);
       });
@@ -563,72 +519,69 @@
       notify('Exercise added','success');
     }
 
-    // ====== Live Session ======
-    const livePanel = document.getElementById('livePanel');
-    const liveTitle = document.getElementById('liveTitle');
-    const liveDate = document.getElementById('liveDate');
-    const liveNewExercise = document.getElementById('liveNewExercise');
-    const liveAddExercise = document.getElementById('liveAddExercise');
-    const liveContainer = document.getElementById('liveContainer');
-    const draftInfo = document.getElementById('draftInfo');
-    const closeLiveBtn = document.getElementById('closeLive');
-    const repeatLastBtn = document.getElementById('repeatLastBtn');
-    const saveLiveBtn = document.getElementById('saveLiveBtn');
-    const discardDraftBtn = document.getElementById('discardDraftBtn');
+    // ====== Modal (Start Workout) ======
+    const workoutModal = document.getElementById('workoutModal');
+    const modalTitle = document.getElementById('modalTitle');
+    const lastSessionInfo = document.getElementById('lastSessionInfo');
+    const exerciseContainer = document.getElementById('exerciseContainer');
+    const closeModalBtn = document.getElementById('closeModal');
+    const addExerciseBtn = document.getElementById('addExerciseBtn');
+    const newExerciseName = document.getElementById('newExerciseName');
+    const modalDate = document.getElementById('modalDate');
+    const saveWorkoutBtn = document.getElementById('saveWorkoutBtn');
+    const deleteSessionBtn = document.getElementById('deleteSessionBtn');
 
-    closeLiveBtn.onclick = ()=> closeLive();
-    liveAddExercise.onclick = ()=>{
-      const name = (liveNewExercise.value||'').trim();
+    closeModalBtn.onclick = ()=> closeModal();
+    addExerciseBtn.onclick = ()=>{
+      const name = newExerciseName.value.trim();
       if(!name) return notify('Enter an exercise name','error');
       const ex = makeEx(name);
-      state.exercises[ui.liveCategory].push(ex); // also add to templates
-      ui.liveItems.push({ id: ex.id, name: ex.name, sets:[{},{},{}], note:'' });
-      liveNewExercise.value='';
+      state.exercises[ui.modalCategory].push(ex);
+      ui.modalItems.push({ id: ex.id, name: ex.name, sets:[{},{},{}], note:'' });
+      newExerciseName.value='';
       save();
-      renderLiveItems();
-      scheduleDraftSave();
+      openModal(ui.modalCategory, modalDate.value);
       notify('Exercise added','success');
     };
 
-    function openLive(category, dkOpt){
-      ui.liveCategory = category;
-      liveTitle.textContent = `${category} — Live Session`;
-      const dk = dkOpt || dateKey(new Date());
-      liveDate.value = dk;
-      ui.liveDraftRestored = false;
-      // Try draft first
-      getDraft(dk, category).then(d=>{
-        if(d && d.data){ ui.liveItems = clone(d.data.items||[]); ui.liveDraftRestored=true; draftInfo.textContent = `Resumed draft • ${new Date(d.updatedAt).toLocaleTimeString()}`; renderLiveItems(); openSheet(); }
-        else{
-          // existing workout for date?
-          const existing = (state.workouts[dk]||[]).find(w=>w.category===category);
-          if(existing){ ui.liveItems = clone(existing.items); draftInfo.textContent='Existing session loaded'; }
-          else{
-            const templates = state.exercises[category] || [];
-            const last = getLastSession(category, dk);
-            ui.liveItems = templates.map(t=>{
-              const found = last ? last.items.find(i=>i.name.toLowerCase()===t.name.toLowerCase()) : null;
-              return { id: t.id, name: t.name, sets: found ? found.sets.map(s=>({weight:s.weight||'', reps:s.reps||''})) : [{},{},{}], note: found ? (found.note||'') : '' };
-            });
-            draftInfo.textContent = last?`Prefilled from last ${category} day`:'No past session found';
-          }
-          renderLiveItems(); openSheet();
-        }
-      });
+    function openModal(category, dateKeyOpt){
+      ui.modalCategory = category;
+      modalTitle.textContent = `Start Workout — ${category}`;
+      const dk = dateKeyOpt || dateKey(new Date());
+      modalDate.value = dk;
+      const existingToday = (state.workouts[dk]||[]).find(w=>w.category===category);
+      if(existingToday){ ui.modalItems = clone(existingToday.items); }
+      else{
+        const templates = state.exercises[category] || [];
+        const last = getLastSession(category, dk);
+        lastSessionInfo.textContent = last ? `Last ${category} day: ${new Date(parseKey(last.date)).toLocaleDateString()} — ${last.items.length} exercise(s)` : `No past ${category} session found.`;
+        ui.modalItems = templates.map(t=>{
+          const found = last ? last.items.find(i=>i.name.toLowerCase()===t.name.toLowerCase()) : null;
+          return { id: t.id, name: t.name, sets: found ? found.sets.map(s=>({weight:s.weight||'', reps:s.reps||''})) : [{},{},{}], note: found ? (found.note||'') : '' };
+        });
+      }
+      renderModalItems();
+      workoutModal.classList.add('open');
+      workoutModal.setAttribute('aria-hidden','false');
     }
 
-    function openSheet(){ livePanel.classList.add('open'); livePanel.setAttribute('aria-hidden','false'); }
-    function closeLive(){ livePanel.classList.remove('open'); livePanel.setAttribute('aria-hidden','true'); ui.liveCategory=null; ui.liveItems=[]; draftInfo.textContent=''; }
+    function closeModal(){
+      workoutModal.classList.remove('open');
+      workoutModal.setAttribute('aria-hidden','true');
+      ui.modalCategory = null; ui.modalItems = [];
+    }
 
-    function renderLiveItems(){
-      liveContainer.innerHTML='';
-      if(ui.liveItems.length===0){ const p=document.createElement('div'); p.className='muted'; p.textContent='No exercises. Add one above.'; liveContainer.appendChild(p); return; }
-      ui.liveItems.forEach((it, idx)=>{
+    function renderModalItems(){
+      const last = getLastSession(ui.modalCategory, modalDate.value);
+      lastSessionInfo.textContent = last ? `Last ${ui.modalCategory} day: ${new Date(parseKey(last.date)).toLocaleDateString()} — ${last.items.length} exercise(s)` : `No past ${ui.modalCategory} session found.`;
+      exerciseContainer.innerHTML='';
+      if(ui.modalItems.length===0){ const p=document.createElement('div'); p.className='muted'; p.textContent='No exercises. Add one above.'; exerciseContainer.appendChild(p); return; }
+      ui.modalItems.forEach((it, idx)=>{
         const row=document.createElement('div'); row.className='exercise-row reveal';
         const head=document.createElement('div'); head.className='exercise-head';
         const left=document.createElement('div'); left.innerHTML = `<div class='exercise-name'>${it.name}</div>`; head.appendChild(left);
         const actions=document.createElement('div'); actions.className='row';
-        const del=document.createElement('button'); del.className='btn danger small'; del.textContent='Remove'; del.onclick=()=>{ ui.liveItems.splice(idx,1); renderLiveItems(); scheduleDraftSave(); };
+        const del=document.createElement('button'); del.className='btn danger small'; del.textContent='Remove'; del.onclick=()=>{ ui.modalItems.splice(idx,1); renderModalItems(); };
         actions.appendChild(del); head.appendChild(actions);
         row.appendChild(head);
         const sets=document.createElement('div'); sets.className='set-table';
@@ -637,101 +590,63 @@
           const cell=document.createElement('div'); cell.className='set-cell';
           const wWrap=document.createElement('div');
           const wLab=document.createElement('label'); wLab.textContent=`Set ${i+1} · Weight (kg)`; wWrap.appendChild(wLab);
-          const w=document.createElement('input'); w.type='number'; w.min='0'; w.step='0.5'; w.value = s.weight ?? ''; w.oninput = (e)=>{ it.sets[i].weight = parseFloat(e.target.value)||''; scheduleDraftSave(); vibrate(10); };
+          const w=document.createElement('input'); w.type='number'; w.min='0'; w.step='0.5'; w.value = s.weight ?? ''; w.oninput = (e)=>{ it.sets[i].weight = parseFloat(e.target.value)||''; };
           wWrap.appendChild(w);
           const rWrap=document.createElement('div');
           const rLab=document.createElement('label'); rLab.textContent=`Reps`; rWrap.appendChild(rLab);
-          const r=document.createElement('input'); r.type='number'; r.min='0'; r.step='1'; r.value = s.reps ?? ''; r.oninput = (e)=>{ it.sets[i].reps = parseInt(e.target.value)||''; scheduleDraftSave(); vibrate(10); };
+          const r=document.createElement('input'); r.type='number'; r.min='0'; r.step='1'; r.value = s.reps ?? ''; r.oninput = (e)=>{ it.sets[i].reps = parseInt(e.target.value)||''; };
           rWrap.appendChild(r);
           cell.appendChild(wWrap); cell.appendChild(rWrap); sets.appendChild(cell);
         });
         row.appendChild(sets);
         const noteWrap=document.createElement('div'); noteWrap.style.marginTop='8px';
         const nLab=document.createElement('label'); nLab.textContent='Note (optional)'; noteWrap.appendChild(nLab);
-        const n=document.createElement('textarea'); n.rows=2; n.placeholder='Any cues, form reminders, tempo, etc.'; n.value=it.note||''; n.oninput=(e)=>{ it.note = e.target.value; scheduleDraftSave(); };
+        const n=document.createElement('textarea'); n.rows=2; n.placeholder='Any cues, form reminders, tempo, etc.'; n.value=it.note||''; n.oninput=(e)=>{ it.note = e.target.value; };
         noteWrap.appendChild(n); row.appendChild(noteWrap);
-        liveContainer.appendChild(row);
+        exerciseContainer.appendChild(row);
       });
-      updateDraftStamp();
     }
 
-    let draftTimer=null;
-    function scheduleDraftSave(){ clearTimeout(draftTimer); draftTimer = setTimeout(()=> saveDraft(), 500); }
-    function saveDraft(){ if(!ui.liveCategory) return; const dk = liveDate.value; setDraft(dk, ui.liveCategory, { items: ui.liveItems }); updateDraftStamp(); notify('Saved','success'); }
-    function updateDraftStamp(){ getDraft(liveDate.value, ui.liveCategory||'').then(d=>{ draftInfo.textContent = d?`Saved • ${new Date(d.updatedAt).toLocaleTimeString()}`:''; }); }
-
-    repeatLastBtn.onclick = ()=>{
-      if(!ui.liveCategory) return;
-      const last = getLastSession(ui.liveCategory, liveDate.value);
-      if(!last) return notify('No past session','error');
-      ui.liveItems = clone(last.items);
-      renderLiveItems(); scheduleDraftSave(); notify('Loaded last session','success');
-    };
-
-    discardDraftBtn.onclick = ()=>{ if(!ui.liveCategory) return; clearDraft(liveDate.value, ui.liveCategory); updateDraftStamp(); notify('Draft discarded','success'); };
-
-    saveLiveBtn.onclick = ()=>{
-      if(!ui.liveCategory) return;
-      const dk = liveDate.value;
-      // must have at least one non-empty set
-      const hasData = ui.liveItems.some(it=> it.sets.some(s=> (s.weight||s.reps) ));
+    saveWorkoutBtn.onclick = ()=>{
+      if(!ui.modalCategory) return;
+      const dk = modalDate.value;
+      const hasData = ui.modalItems.some(it=> it.sets.some(s=> (s.weight||s.reps) ));
       if(!hasData){ return notify('Enter at least one set','error'); }
-      const payload = { category: ui.liveCategory, items: ui.liveItems.map(it=>({ id: it.id, name: it.name, sets: it.sets.map(s=>({weight: s.weight||0, reps: s.reps||0})), note: it.note||'' })) };
+      const payload = { category: ui.modalCategory, items: ui.modalItems.map(it=>({ id: it.id, name: it.name, sets: it.sets.map(s=>({weight: s.weight||0, reps: s.reps||0})), note: it.note||'' })) };
       const arr = state.workouts[dk] = state.workouts[dk] || [];
-      const idx = arr.findIndex(w=>w.category===ui.liveCategory);
+      const idx = arr.findIndex(w=>w.category===ui.modalCategory);
       if(idx>=0){ if(!confirm('A session for this group already exists on this date. Replace it?')) return; arr[idx] = payload; }
       else arr.push(payload);
-      clearDraft(dk, ui.liveCategory);
       save();
-      // Streaks + confetti on new best
-      const {current, best, span} = computeStreaks();
-      ui.streakSpan = span; renderStreaks(current, best);
+      // Streaks
+      const {current, best} = computeStreaks();
       if(best> (state.stats.bestStreak||0)){ state.stats.bestStreak = best; save(); throwConfetti(); }
+      renderStreaks(current, Math.max(best, state.stats.bestStreak||0));
       notify('Workout saved','success');
-      closeLive();
+      closeModal();
     };
 
-    document.addEventListener('visibilitychange', ()=>{ if(document.hidden) saveDraft(); });
-    window.addEventListener('pagehide', ()=> saveDraft());
+    deleteSessionBtn.onclick = ()=>{
+      if(!ui.modalCategory) return;
+      const dk = modalDate.value;
+      const arr = state.workouts[dk]||[];
+      const idx = arr.findIndex(w=>w.category===ui.modalCategory);
+      if(idx>=0){ if(confirm('Delete this session?')){ arr.splice(idx,1); if(arr.length===0) delete state.workouts[dk]; save(); notify('Session deleted','success'); closeModal(); const {current,best}=computeStreaks(); renderStreaks(current,best); } }
+    };
 
-    // ====== Streaks ======
-    const currentStreakEl = document.getElementById('currentStreak');
-    const bestStreakEl = document.getElementById('bestStreak');
-    const nextMilestoneEl = document.getElementById('nextMilestone');
-
-    function hasWorkout(key){ const a=state.workouts[key]; return a && a.length>0; }
-
-    function computeStreaks(){
-      const today = new Date(); today.setHours(0,0,0,0);
-      // current streak (skip Sundays as neutral)
-      let cur=0; let span = new Set();
-      let d = new Date(today);
-      while(true){
-        if(d.getDay()===0){ d.setDate(d.getDate()-1); continue; }
-        const k = dateKey(d);
-        if(hasWorkout(k)){ cur++; span.add(k); d.setDate(d.getDate()-1); }
-        else break;
-      }
-      // best streak across history, skipping Sundays
-      const keys = Object.keys(state.workouts);
-      if(keys.length===0) return {current:cur, best: state.stats.bestStreak||0, span};
-      const minDate = keys.map(parseKey).sort((a,b)=>a-b)[0];
-      let best=0, run=0;
-      for(let t=new Date(minDate); t<=today; t.setDate(t.getDate()+1)){
-        if(t.getDay()===0) continue;
-        if(hasWorkout(dateKey(t))) run++; else run=0;
-        if(run>best) best=run;
-      }
-      return {current:cur, best: Math.max(best, state.stats.bestStreak||0), span};
+    function getLastSession(category, beforeOrOnDateKey){
+      const keys = Object.keys(state.workouts).filter(k=> k<=beforeOrOnDateKey);
+      keys.sort();
+      for(let i=keys.length-1;i>=0;i--){ const arr=state.workouts[keys[i]]; const found = arr.find(w=>w.category===category); if(found) return { date: keys[i], items: clone(found.items) }; }
+      return null;
     }
 
-    function renderStreaks(current, best){
-      currentStreakEl.textContent = current;
-      bestStreakEl.textContent = best;
-      const milestones=[7,14,30,60,100];
-      const next = milestones.find(m=>m>current);
-      nextMilestoneEl.textContent = next?`${next} (in ${next-current} day${next-current>1?'s':''})`:'Maxed for now — beast mode';
-    }
+    // ====== Quick Add ======
+    document.getElementById('addQuickBtn').onclick = ()=>{
+      const cat = prompt('Muscle group (Chest, Back, Arms, Shoulders, Legs, Forearms):');
+      if(!cat || !CATEGORIES.includes(cap(cat))) return notify('Invalid group','error');
+      openModal(cap(cat), ui.selectedDate);
+    };
 
     // ====== Export / Import / Reset ======
     document.getElementById('exportBtn').onclick = ()=>{
@@ -745,13 +660,13 @@
     document.getElementById('importFile').onchange = (e)=>{
       const file = e.target.files[0]; if(!file) return;
       const reader = new FileReader(); reader.onload = ()=>{
-        try{ const data = JSON.parse(reader.result); if(!data.exercises||!data.workouts) throw new Error('Invalid'); state = data; if(!state.stats) state.stats={bestStreak:0}; save(); notify('Imported successfully','success'); const {current,best,span}=computeStreaks(); ui.streakSpan=span; renderStreaks(current,best); }
+        try{ const data = JSON.parse(reader.result); if(!data.exercises||!data.workouts) throw new Error('Invalid'); state = data; if(!state.stats) state.stats={bestStreak:0}; save(); notify('Imported successfully','success'); const {current,best}=computeStreaks(); renderStreaks(current,best); }
         catch(err){ notify('Failed to import: '+err.message,'error'); }
       }; reader.readAsText(file);
     };
-    document.getElementById('resetBtn').onclick = ()=>{ if(confirm('This will permanently erase all local data. Continue?')){ state = initialState(); save(); notify('Data reset','success'); const {current,best,span}=computeStreaks(); ui.streakSpan=span; renderStreaks(current,best); } };
+    document.getElementById('resetBtn').onclick = ()=>{ if(confirm('This will permanently erase all local data. Continue?')){ state = initialState(); save(); notify('Data reset','success'); const {current,best}=computeStreaks(); renderStreaks(current,best); } };
 
-    // ====== GitHub Sync (manual only) ======
+    // ====== GitHub Sync (manual/optional auto like before) ======
     const settingsBtn = document.getElementById('settingsBtn');
     const settingsModal = document.getElementById('settingsModal');
     const closeSettings = document.getElementById('closeSettings');
@@ -772,7 +687,7 @@
       els.branch.value = settings.branch||'main';
       els.path.value = settings.path||'backup.json';
       els.token.value = getToken();
-      els.bg.value = settings.bg||'minimal';
+      els.auto.value = settings.auto||'off';
       settingsModal.classList.add('open');
       settingsModal.setAttribute('aria-hidden','false');
     }
@@ -784,43 +699,40 @@
         branch: document.getElementById('ghBranch'),
         path: document.getElementById('ghPath'),
         token: document.getElementById('ghToken'),
-        bg: document.getElementById('bgStyle'),
+        auto: document.getElementById('ghAuto'),
       }
     }
     function handleSaveSettings(){
       const els = domSettings();
-      settings = { owner: (els.owner.value||'').trim(), repo: (els.repo.value||'').trim(), branch: (els.branch.value||'main').trim(), path: (els.path.value||'backup.json').trim(), bg: els.bg.value };
+      settings = { owner: (els.owner.value||'').trim(), repo: (els.repo.value||'').trim(), branch: (els.branch.value||'main').trim(), path: (els.path.value||'backup.json').trim(), auto: els.auto.value };
       saveSettings(settings);
       setToken((els.token.value||'').trim());
-      applyBg();
       notify('Settings saved','success');
       closeSettingsModal();
     }
-    function applyBg(){ if((settings.bg||'minimal')==='vibe') document.body.classList.add('bg-vibe'); else document.body.classList.remove('bg-vibe'); }
 
-    async function syncNow(){
+    function maybeAutoSync(){ if(settings.auto==='on'){ syncNow({quiet:true}); } }
+
+    async function syncNow(opts={}){
       try{
         const token = getToken();
         if(!settings.owner||!settings.repo||!settings.branch||!settings.path) throw new Error('Missing repo settings');
         if(!token) throw new Error('Missing token');
         const content = JSON.stringify(state, null, 2);
         await githubUpsertFile({owner:settings.owner, repo:settings.repo, branch:settings.branch, path:settings.path, token}, content, `Workout backup ${new Date().toISOString()}`);
-        notify('Synced to GitHub','success');
-      }catch(err){ notify('Sync failed: '+err.message,'error'); }
+        if(!opts.quiet) notify('Synced to GitHub','success');
+      }catch(err){ if(!opts.quiet) notify('Sync failed: '+err.message,'error'); }
     }
 
     async function loadFromGitHub(){
       try{
         if(!settings.owner||!settings.repo||!settings.branch||!settings.path) throw new Error('Missing repo settings');
-        // Public raw URL path; will fail for private repos (kept manual by design)
         const url = `https://raw.githubusercontent.com/${encodeURIComponent(settings.owner)}/${encodeURIComponent(settings.repo)}/${encodeURIComponent(settings.branch)}/${settings.path}`;
         const res = await fetch(url, {cache:'no-store'});
         if(!res.ok) throw new Error('Failed to fetch: '+res.status);
         const data = await res.json();
         if(!data.exercises||!data.workouts) throw new Error('Invalid backup file');
-        state = data; if(!state.stats) state.stats={bestStreak:0}; save();
-        const {current,best,span}=computeStreaks(); ui.streakSpan=span; renderStreaks(current,best);
-        notify('Loaded from GitHub','success');
+        state = data; if(!state.stats) state.stats={bestStreak:0}; save(); notify('Loaded from GitHub','success'); const {current,best}=computeStreaks(); renderStreaks(current,best);
         closeSettingsModal();
       }catch(err){ notify('Load failed: '+err.message,'error'); }
     }
@@ -840,6 +752,44 @@
     }
 
     function b64(str){ return btoa(unescape(encodeURIComponent(str))); }
+
+    // ====== Streaks ======
+    const currentStreakEl = document.getElementById('currentStreak');
+    const bestStreakEl = document.getElementById('bestStreak');
+    const nextMilestoneEl = document.getElementById('nextMilestone');
+
+    function hasWorkout(key){ const a=state.workouts[key]; return a && a.length>0; }
+
+    function computeStreaks(){
+      const today = new Date(); today.setHours(0,0,0,0);
+      // current streak (skip Sundays as neutral)
+      let cur=0; let d = new Date(today);
+      while(true){
+        if(d.getDay()===0){ d.setDate(d.getDate()-1); continue; }
+        const k = dateKey(d);
+        if(hasWorkout(k)){ cur++; d.setDate(d.getDate()-1); }
+        else break;
+      }
+      // best streak across history, skipping Sundays
+      const keys = Object.keys(state.workouts);
+      if(keys.length===0) return {current:cur, best: state.stats.bestStreak||0};
+      const minDate = keys.map(parseKey).sort((a,b)=>a-b)[0];
+      let best=0, run=0;
+      for(let t=new Date(minDate); t<=today; t.setDate(t.getDate()+1)){
+        if(t.getDay()===0) continue;
+        if(hasWorkout(dateKey(t))) run++; else run=0;
+        if(run>best) best=run;
+      }
+      return {current:cur, best: Math.max(best, state.stats.bestStreak||0)};
+    }
+
+    function renderStreaks(current, best){
+      currentStreakEl.textContent = current;
+      bestStreakEl.textContent = best;
+      const milestones=[7,14,30,60,100];
+      const next = milestones.find(m=>m>current);
+      nextMilestoneEl.textContent = next?`${next} (in ${next-current} day${next-current>1?'s':''})`:'Maxed for now — beast mode';
+    }
 
     // ====== Toasts & Confetti ======
     const toastBox = document.getElementById('toasts');
@@ -862,11 +812,10 @@
         setTimeout(()=>c.remove(), 1600);
       }
     }
-    function vibrate(ms){ if(navigator.vibrate) try{ navigator.vibrate(ms); }catch{} }
 
     // ====== Render root ======
     function renderAll(){
-      const {current,best,span}=computeStreaks(); ui.streakSpan=span; renderStreaks(current,best);
+      const {current,best}=computeStreaks(); renderStreaks(current,best);
       renderCategories(); renderCalendar(); renderDay(); renderManage();
     }
 
