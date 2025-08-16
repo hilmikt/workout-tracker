@@ -2,422 +2,91 @@
   "exercises": {
     "Chest": [
       {
-        "id": "ex_aydslqi",
+        "id": "ex_4n1u6ge",
         "name": "Bench Press"
       },
       {
-        "id": "ex_r84745c",
+        "id": "ex_54fs13y",
+        "name": "Incline DB Press"
+      },
+      {
+        "id": "ex_a7fijkm",
         "name": "Cable Fly"
-      },
-      {
-        "id": "ex_xmn7uxl",
-        "name": "Peck fly"
-      },
-      {
-        "id": "ex_pla2oy7",
-        "name": "Pullover"
-      },
-      {
-        "id": "ex_1uju1vk",
-        "name": "Decline DB press"
       }
     ],
     "Back": [
       {
-        "id": "ex_2ax9pc3",
-        "name": "Lat Pulldown"
-      },
-      {
-        "id": "ex_xkemmsy",
-        "name": "Seated Row"
-      },
-      {
-        "id": "ex_rnr9xa1",
+        "id": "ex_4i745d4",
         "name": "Deadlift"
       },
       {
-        "id": "ex_frpslq9",
-        "name": "Horizontal row (single)"
+        "id": "ex_vrvqr2c",
+        "name": "Lat Pulldown"
       },
       {
-        "id": "ex_l2wc4ni",
-        "name": "Dumbbell row"
+        "id": "ex_5ty32en",
+        "name": "Seated Row"
       }
     ],
     "Arms": [
       {
-        "id": "ex_4leml26",
-        "name": "Dumbbell curl"
+        "id": "ex_y2tdpui",
+        "name": "Barbell Curl"
       },
       {
-        "id": "ex_ssowwnt",
-        "name": "Preacher curl"
+        "id": "ex_h7qtmhy",
+        "name": "Tricep Pushdown"
       },
       {
-        "id": "ex_yr3uedx",
-        "name": "Hammer (rope)"
-      },
-      {
-        "id": "ex_ttargiu",
-        "name": "Hammer dumbbell"
-      },
-      {
-        "id": "ex_572vnzg",
-        "name": "Triceps dips"
+        "id": "ex_a2e8aaa",
+        "name": "Hammer Curl"
       }
     ],
     "Shoulders": [
       {
-        "id": "ex_2hspg3n",
+        "id": "ex_my6ndqp",
         "name": "Overhead Press"
       },
       {
-        "id": "ex_m6sr32n",
+        "id": "ex_ouhhreh",
         "name": "Lateral Raise"
       },
       {
-        "id": "ex_jzhcw0o",
+        "id": "ex_x55mv4m",
         "name": "Rear Delt Fly"
       }
     ],
     "Legs": [
       {
-        "id": "ex_dh8oclk",
+        "id": "ex_sy6tprt",
         "name": "Squat"
       },
       {
-        "id": "ex_aanvbtc",
+        "id": "ex_f9alz7t",
         "name": "Leg Press"
       },
       {
-        "id": "ex_uutdgzf",
+        "id": "ex_8l04lne",
         "name": "Romanian Deadlift"
       }
     ],
     "Forearms": [
       {
-        "id": "ex_3apw1eu",
+        "id": "ex_3n58r7n",
         "name": "Wrist Curl"
       },
       {
-        "id": "ex_hi4u0tr",
+        "id": "ex_5gsbumk",
         "name": "Reverse Curl"
       },
       {
-        "id": "ex_5svwsbx",
+        "id": "ex_5iau2wy",
         "name": "Farmer's Carry"
       }
     ]
   },
-  "workouts": {
-    "2025-08-11": [
-      {
-        "category": "Chest",
-        "items": [
-          {
-            "id": "ex_aydslqi",
-            "name": "Bench Press",
-            "sets": [
-              {
-                "weight": 12.5,
-                "reps": 10
-              },
-              {
-                "weight": 12.5,
-                "reps": 11
-              },
-              {
-                "weight": 12.5,
-                "reps": 11
-              }
-            ],
-            "note": "Medium. Next 15 kg on last set"
-          },
-          {
-            "id": "ex_r84745c",
-            "name": "Cable Fly",
-            "sets": [
-              {
-                "weight": 10,
-                "reps": 15
-              },
-              {
-                "weight": 15,
-                "reps": 10
-              },
-              {
-                "weight": 15,
-                "reps": 10
-              }
-            ],
-            "note": "Next, full 15kg"
-          },
-          {
-            "id": "ex_xmn7uxl",
-            "name": "Peck fly",
-            "sets": [
-              {
-                "weight": 10,
-                "reps": 15
-              },
-              {
-                "weight": 15,
-                "reps": 10
-              },
-              {
-                "weight": 15,
-                "reps": 10
-              }
-            ],
-            "note": "Next full 15kg"
-          },
-          {
-            "id": "ex_gb6p02r",
-            "name": "Decline DB press",
-            "sets": [
-              {
-                "weight": 10,
-                "reps": 12
-              },
-              {
-                "weight": 10,
-                "reps": 12
-              },
-              {
-                "weight": 10,
-                "reps": 12
-              }
-            ],
-            "note": "Next full 15 reps"
-          },
-          {
-            "id": "ex_pla2oy7",
-            "name": "Pullover",
-            "sets": [
-              {
-                "weight": 7.5,
-                "reps": 15
-              },
-              {
-                "weight": 10,
-                "reps": 10
-              },
-              {
-                "weight": 10,
-                "reps": 10
-              }
-            ],
-            "note": "Next full 10kg"
-          }
-        ]
-      }
-    ],
-    "2025-08-12": [
-      {
-        "category": "Back",
-        "items": [
-          {
-            "id": "ex_2ax9pc3",
-            "name": "Lat Pulldown",
-            "sets": [
-              {
-                "weight": 25,
-                "reps": 12
-              },
-              {
-                "weight": 25,
-                "reps": 12
-              },
-              {
-                "weight": 25,
-                "reps": 10
-              }
-            ],
-            "note": "Next 30kg last set"
-          },
-          {
-            "id": "ex_xkemmsy",
-            "name": "Seated Row",
-            "sets": [
-              {
-                "weight": 19.5,
-                "reps": 20
-              },
-              {
-                "weight": 26,
-                "reps": 15
-              },
-              {
-                "weight": 26,
-                "reps": 15
-              }
-            ],
-            "note": "Next 32.5 on last rep"
-          },
-          {
-            "id": "ex_rnr9xa1",
-            "name": "Deadlift",
-            "sets": [
-              {
-                "weight": 20,
-                "reps": 12
-              },
-              {
-                "weight": 25,
-                "reps": 7
-              },
-              {
-                "weight": 25,
-                "reps": 7
-              }
-            ],
-            "note": "Next same kg. Use belt"
-          },
-          {
-            "id": "ex_frpslq9",
-            "name": "Horizontal row (single)",
-            "sets": [
-              {
-                "weight": 22.5,
-                "reps": 12
-              },
-              {
-                "weight": 22.5,
-                "reps": 8
-              },
-              {
-                "weight": 22.5,
-                "reps": 7
-              }
-            ],
-            "note": "Next full 12 reps"
-          },
-          {
-            "id": "ex_l2wc4ni",
-            "name": "Dumbbell row",
-            "sets": [
-              {
-                "weight": 12.5,
-                "reps": 15
-              },
-              {
-                "weight": 12.5,
-                "reps": 15
-              },
-              {
-                "weight": 12.5,
-                "reps": 15
-              }
-            ],
-            "note": ""
-          }
-        ]
-      }
-    ],
-    "2025-08-13": [
-      {
-        "category": "Arms",
-        "items": [
-          {
-            "id": "ex_4leml26",
-            "name": "Dumbbell curl",
-            "sets": [
-              {
-                "weight": 12.5,
-                "reps": 8
-              },
-              {
-                "weight": 12.5,
-                "reps": 7
-              },
-              {
-                "weight": 10,
-                "reps": 12
-              }
-            ],
-            "note": "Next last one set 12.5kg"
-          },
-          {
-            "id": "ex_ssowwnt",
-            "name": "Preacher curl",
-            "sets": [
-              {
-                "weight": 10,
-                "reps": 12
-              },
-              {
-                "weight": 10,
-                "reps": 12
-              },
-              {
-                "weight": 10,
-                "reps": 12
-              }
-            ],
-            "note": "Next full 12 reps"
-          },
-          {
-            "id": "ex_yr3uedx",
-            "name": "Hammer (rope)",
-            "sets": [
-              {
-                "weight": 20,
-                "reps": 11
-              },
-              {
-                "weight": 20,
-                "reps": 11
-              },
-              {
-                "weight": 20,
-                "reps": 11
-              }
-            ],
-            "note": "Next 25kg"
-          },
-          {
-            "id": "ex_ttargiu",
-            "name": "Hammer dumbbell",
-            "sets": [
-              {
-                "weight": 7.5,
-                "reps": 13
-              },
-              {
-                "weight": 7.5,
-                "reps": 12
-              },
-              {
-                "weight": 7.5,
-                "reps": 11
-              }
-            ],
-            "note": "Next 10kg"
-          },
-          {
-            "id": "ex_572vnzg",
-            "name": "Triceps dips",
-            "sets": [
-              {
-                "weight": 20,
-                "reps": 16
-              },
-              {
-                "weight": 22.5,
-                "reps": 15
-              },
-              {
-                "weight": 22.5,
-                "reps": 15
-              }
-            ],
-            "note": "Next 25kg last set"
-          }
-        ]
-      }
-    ]
-  },
+  "workouts": {},
   "stats": {
-    "bestStreak": 3
+    "bestStreak": 0
   }
 }
