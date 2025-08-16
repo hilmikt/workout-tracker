@@ -64,20 +64,36 @@
       {
         "id": "ex_572vnzg",
         "name": "Triceps dips"
+      },
+      {
+        "id": "ex_dirxmrm",
+        "name": "Overhand grip"
+      },
+      {
+        "id": "ex_z9sgdar",
+        "name": "Underhand grip"
       }
     ],
     "Shoulders": [
       {
-        "id": "ex_2hspg3n",
-        "name": "Overhead Press"
+        "id": "ex_roxnx6r",
+        "name": "Forehead row"
       },
       {
-        "id": "ex_m6sr32n",
-        "name": "Lateral Raise"
+        "id": "ex_9z3lefh",
+        "name": "Upright row"
       },
       {
-        "id": "ex_jzhcw0o",
-        "name": "Rear Delt Fly"
+        "id": "ex_g4t4z1u",
+        "name": "Press machine"
+      },
+      {
+        "id": "ex_318aahf",
+        "name": "Lateral raises"
+      },
+      {
+        "id": "ex_cq2dm6f",
+        "name": "Front raises plate"
       }
     ],
     "Legs": [
@@ -86,12 +102,20 @@
         "name": "Squat"
       },
       {
-        "id": "ex_aanvbtc",
-        "name": "Leg Press"
+        "id": "ex_a99ck9j",
+        "name": "One-leg squat"
       },
       {
-        "id": "ex_uutdgzf",
-        "name": "Romanian Deadlift"
+        "id": "ex_54k3tfb",
+        "name": "Leg extension"
+      },
+      {
+        "id": "ex_wy8p2gj",
+        "name": "Lying leg curl"
+      },
+      {
+        "id": "ex_4ot1c42",
+        "name": "Calf raises seated"
       }
     ],
     "Forearms": [
@@ -415,9 +439,213 @@
           }
         ]
       }
+    ],
+    "2025-08-14": [
+      {
+        "category": "Shoulders",
+        "items": [
+          {
+            "id": "ex_roxnx6r",
+            "name": "Forehead row",
+            "sets": [
+              {
+                "weight": 25,
+                "reps": 21
+              },
+              {
+                "weight": 30,
+                "reps": 15
+              },
+              {
+                "weight": 30,
+                "reps": 15
+              }
+            ],
+            "note": "Next 30+35kg"
+          },
+          {
+            "id": "ex_9z3lefh",
+            "name": "Upright row",
+            "sets": [
+              {
+                "weight": 20,
+                "reps": 15
+              },
+              {
+                "weight": 25,
+                "reps": 10
+              },
+              {
+                "weight": 25,
+                "reps": 10
+              }
+            ],
+            "note": "Next full 25kg"
+          },
+          {
+            "id": "ex_g4t4z1u",
+            "name": "Press machine",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 10
+              },
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 14
+              }
+            ],
+            "note": "Next 12.5kg"
+          },
+          {
+            "id": "ex_318aahf",
+            "name": "Lateral raises",
+            "sets": [
+              {
+                "weight": 5,
+                "reps": 10
+              },
+              {
+                "weight": 5,
+                "reps": 10
+              },
+              {
+                "weight": 5,
+                "reps": 10
+              }
+            ],
+            "note": "Next 15 reps"
+          },
+          {
+            "id": "ex_cq2dm6f",
+            "name": "Front raises plate",
+            "sets": [
+              {
+                "weight": 5,
+                "reps": 20
+              },
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 10
+              }
+            ],
+            "note": "Next full 10kg"
+          }
+        ]
+      }
+    ],
+    "2025-08-15": [
+      {
+        "category": "Legs",
+        "items": [
+          {
+            "id": "ex_dh8oclk",
+            "name": "Squat",
+            "sets": [
+              {
+                "weight": 20,
+                "reps": 15
+              },
+              {
+                "weight": 25,
+                "reps": 10
+              },
+              {
+                "weight": 25,
+                "reps": 10
+              }
+            ],
+            "note": "Next full 25kg"
+          },
+          {
+            "id": "ex_a99ck9j",
+            "name": "One-leg squat",
+            "sets": [
+              {
+                "weight": 7.5,
+                "reps": 15
+              },
+              {
+                "weight": 10,
+                "reps": 15
+              },
+              {
+                "weight": 10,
+                "reps": 15
+              }
+            ],
+            "note": "Next full 10+12.5kg"
+          },
+          {
+            "id": "ex_54k3tfb",
+            "name": "Leg extension",
+            "sets": [
+              {
+                "weight": 55,
+                "reps": 15
+              },
+              {
+                "weight": 55,
+                "reps": 15
+              },
+              {
+                "weight": 60,
+                "reps": 12
+              }
+            ],
+            "note": "Next full 60kg 15reps"
+          },
+          {
+            "id": "ex_wy8p2gj",
+            "name": "Lying leg curl",
+            "sets": [
+              {
+                "weight": 25,
+                "reps": 15
+              },
+              {
+                "weight": 30,
+                "reps": 12
+              },
+              {
+                "weight": 30,
+                "reps": 10
+              }
+            ],
+            "note": "Next full 30kg"
+          },
+          {
+            "id": "ex_4ot1c42",
+            "name": "Calf raises seated",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 15
+              },
+              {
+                "weight": 35,
+                "reps": 13
+              },
+              {
+                "weight": 35,
+                "reps": 12
+              }
+            ],
+            "note": "Next 35+40kg"
+          }
+        ]
+      }
     ]
   },
   "stats": {
-    "bestStreak": 3
+    "bestStreak": 6
   }
 }
