@@ -62,10 +62,6 @@
         "name": "Hammer dumbbell"
       },
       {
-        "id": "ex_572vnzg",
-        "name": "Triceps dips"
-      },
-      {
         "id": "ex_dirxmrm",
         "name": "Overhand grip"
       },
@@ -841,6 +837,127 @@
               {
                 "weight": 15,
                 "reps": 8
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "2025-08-20": [
+      {
+        "category": "Arms",
+        "items": [
+          {
+            "id": "ex_4leml26",
+            "name": "Dumbbell curl",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 10
+              },
+              {
+                "weight": 10,
+                "reps": 8
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_ssowwnt",
+            "name": "Preacher curl",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 12
+              },
+              {
+                "weight": 10,
+                "reps": 10
+              },
+              {
+                "weight": 10,
+                "reps": 8
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_yr3uedx",
+            "name": "Hammer (rope)",
+            "sets": [
+              {
+                "weight": 20,
+                "reps": 15
+              },
+              {
+                "weight": 25,
+                "reps": 12
+              },
+              {
+                "weight": 25,
+                "reps": 12
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_ttargiu",
+            "name": "Hammer dumbbell",
+            "sets": [
+              {
+                "weight": 7.5,
+                "reps": 15
+              },
+              {
+                "weight": 10,
+                "reps": 5
+              },
+              {
+                "weight": 10,
+                "reps": 7
+              }
+            ],
+            "note": "Next 10kg"
+          },
+          {
+            "id": "ex_dirxmrm",
+            "name": "Overhand grip",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 15
+              },
+              {
+                "weight": 35,
+                "reps": 12
+              },
+              {
+                "weight": 35,
+                "reps": 12
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_z9sgdar",
+            "name": "Underhand grip",
+            "sets": [
+              {
+                "weight": 25,
+                "reps": 12
+              },
+              {
+                "weight": 25,
+                "reps": 12
+              },
+              {
+                "weight": 25,
+                "reps": 12
               }
             ],
             "note": ""
