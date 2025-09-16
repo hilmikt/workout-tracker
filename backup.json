@@ -84,10 +84,6 @@
         "name": "Press machine"
       },
       {
-        "id": "ex_318aahf",
-        "name": "Lateral raises"
-      },
-      {
         "id": "ex_cq2dm6f",
         "name": "Front raises plate"
       },
@@ -2062,6 +2058,127 @@
               {
                 "weight": 25,
                 "reps": 10
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "2025-09-16": [
+      {
+        "category": "Shoulders",
+        "items": [
+          {
+            "id": "ex_roxnx6r",
+            "name": "Forehead row",
+            "sets": [
+              {
+                "weight": 35,
+                "reps": 15
+              },
+              {
+                "weight": 35,
+                "reps": 15
+              },
+              {
+                "weight": 40,
+                "reps": 10
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_9z3lefh",
+            "name": "Upright row",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 15
+              },
+              {
+                "weight": 30,
+                "reps": 16
+              },
+              {
+                "weight": 30,
+                "reps": 17
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_g4t4z1u",
+            "name": "Press machine",
+            "sets": [
+              {
+                "weight": 12.5,
+                "reps": 12
+              },
+              {
+                "weight": 12.5,
+                "reps": 9
+              },
+              {
+                "weight": 12.5,
+                "reps": 7
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_318aahf",
+            "name": "Lateral raises",
+            "sets": [
+              {
+                "weight": 5,
+                "reps": 12
+              },
+              {
+                "weight": 5,
+                "reps": 13
+              },
+              {
+                "weight": 5,
+                "reps": 15
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_cq2dm6f",
+            "name": "Front raises plate",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 18
+              },
+              {
+                "weight": 10,
+                "reps": 17
+              },
+              {
+                "weight": 10,
+                "reps": 14
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_pvmj87c",
+            "name": "Shrugs",
+            "sets": [
+              {
+                "weight": 12.5,
+                "reps": 20
+              },
+              {
+                "weight": 12.5,
+                "reps": 20
+              },
+              {
+                "weight": 12.5,
+                "reps": 20
               }
             ],
             "note": ""
