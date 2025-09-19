@@ -2494,16 +2494,16 @@
             "name": "Dumbbell row",
             "sets": [
               {
-                "weight": 15,
-                "reps": 12
+                "weight": 17.5,
+                "reps": 9
               },
               {
-                "weight": 15,
-                "reps": 12
+                "weight": 17.5,
+                "reps": 8
               },
               {
-                "weight": 15,
-                "reps": 10
+                "weight": 17.5,
+                "reps": 7
               }
             ],
             "note": ""
