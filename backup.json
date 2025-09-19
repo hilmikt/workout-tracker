@@ -2456,16 +2456,16 @@
             "name": "Deadlift",
             "sets": [
               {
-                "weight": 30,
-                "reps": 12
+                "weight": 40,
+                "reps": 5
               },
               {
-                "weight": 30,
-                "reps": 11
+                "weight": 40,
+                "reps": 5
               },
               {
-                "weight": 30,
-                "reps": 10
+                "weight": 40,
+                "reps": 5
               }
             ],
             "note": ""
