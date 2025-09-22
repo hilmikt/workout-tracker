@@ -2578,15 +2578,15 @@
             "sets": [
               {
                 "weight": 7.5,
-                "reps": 14
+                "reps": 15
               },
               {
                 "weight": 7.5,
-                "reps": 12
+                "reps": 15
               },
               {
-                "weight": 7.5,
-                "reps": 12
+                "weight": 10,
+                "reps": 8
               }
             ],
             "note": ""
