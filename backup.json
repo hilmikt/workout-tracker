@@ -2661,15 +2661,15 @@
             "sets": [
               {
                 "weight": 30,
-                "reps": 14
+                "reps": 10
               },
               {
                 "weight": 30,
-                "reps": 14
+                "reps": 7
               },
               {
                 "weight": 30,
-                "reps": 13
+                "reps": 7
               }
             ],
             "note": ""
@@ -2680,15 +2680,15 @@
             "sets": [
               {
                 "weight": 12.5,
-                "reps": 12
+                "reps": 13
               },
               {
                 "weight": 12.5,
-                "reps": 9
+                "reps": 11
               },
               {
                 "weight": 12.5,
-                "reps": 7
+                "reps": 10
               }
             ],
             "note": ""
