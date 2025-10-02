@@ -2699,15 +2699,15 @@
             "sets": [
               {
                 "weight": 10,
-                "reps": 18
+                "reps": 13
               },
               {
                 "weight": 10,
-                "reps": 17
+                "reps": 12
               },
               {
                 "weight": 10,
-                "reps": 14
+                "reps": 10
               }
             ],
             "note": ""
@@ -2717,16 +2717,16 @@
             "name": "Shrugs",
             "sets": [
               {
-                "weight": 12.5,
-                "reps": 20
+                "weight": 15,
+                "reps": 15
               },
               {
-                "weight": 12.5,
-                "reps": 20
+                "weight": 15,
+                "reps": 15
               },
               {
-                "weight": 12.5,
-                "reps": 20
+                "weight": 15,
+                "reps": 15
               }
             ],
             "note": ""
