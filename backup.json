@@ -2,10 +2,6 @@
   "exercises": {
     "Chest": [
       {
-        "id": "ex_aydslqi",
-        "name": "Bench Press"
-      },
-      {
         "id": "ex_r84745c",
         "name": "Cable Fly"
       },
@@ -20,6 +16,10 @@
       {
         "id": "ex_1uju1vk",
         "name": "Decline DB press"
+      },
+      {
+        "id": "ex_z9oyqo3",
+        "name": "Incline bench press"
       }
     ],
     "Back": [
