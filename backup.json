@@ -2781,16 +2781,16 @@
             "name": "Peck fly",
             "sets": [
               {
-                "weight": 20,
-                "reps": 7
+                "weight": 15,
+                "reps": 12
+              },
+              {
+                "weight": 15,
+                "reps": 10
               },
               {
                 "weight": 15,
                 "reps": 9
-              },
-              {
-                "weight": 15,
-                "reps": 7
               }
             ],
             "note": ""
