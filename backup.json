@@ -2801,15 +2801,15 @@
             "sets": [
               {
                 "weight": 15,
+                "reps": 5
+              },
+              {
+                "weight": 12.5,
                 "reps": 9
               },
               {
-                "weight": 15,
-                "reps": 7
-              },
-              {
-                "weight": 15,
-                "reps": 5
+                "weight": 12.5,
+                "reps": 8
               }
             ],
             "note": ""
