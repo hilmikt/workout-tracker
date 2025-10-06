@@ -2846,7 +2846,7 @@
             "sets": [
               {
                 "weight": 30,
-                "reps": 10
+                "reps": 9
               },
               {
                 "weight": 30,
@@ -2854,7 +2854,7 @@
               },
               {
                 "weight": 30,
-                "reps": 8
+                "reps": 7
               }
             ],
             "note": ""
