@@ -2864,16 +2864,16 @@
             "name": "Seated Row",
             "sets": [
               {
-                "weight": 32.5,
-                "reps": 15
-              },
-              {
-                "weight": 32.5,
-                "reps": 14
+                "weight": 39,
+                "reps": 10
               },
               {
                 "weight": 39,
-                "reps": 7
+                "reps": 10
+              },
+              {
+                "weight": 39,
+                "reps": 8
               }
             ],
             "note": ""
