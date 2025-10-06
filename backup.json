@@ -2922,15 +2922,15 @@
             "sets": [
               {
                 "weight": 17.5,
+                "reps": 11
+              },
+              {
+                "weight": 17.5,
                 "reps": 9
               },
               {
                 "weight": 17.5,
                 "reps": 8
-              },
-              {
-                "weight": 17.5,
-                "reps": 7
               }
             ],
             "note": ""
