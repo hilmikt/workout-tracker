@@ -3024,11 +3024,11 @@
             "sets": [
               {
                 "weight": 40,
-                "reps": 11
+                "reps": 12
               },
               {
                 "weight": 40,
-                "reps": 9
+                "reps": 8
               },
               {
                 "weight": 40,
@@ -3042,12 +3042,12 @@
             "name": "Underhand grip",
             "sets": [
               {
-                "weight": 25,
-                "reps": 12
+                "weight": 30,
+                "reps": 8
               },
               {
                 "weight": 30,
-                "reps": 7
+                "reps": 6
               },
               {
                 "weight": 30,
