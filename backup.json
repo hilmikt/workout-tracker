@@ -3107,15 +3107,15 @@
             "sets": [
               {
                 "weight": 60,
-                "reps": 16
+                "reps": 15
               },
               {
-                "weight": 60,
-                "reps": 16
+                "weight": 65,
+                "reps": 10
               },
               {
-                "weight": 60,
-                "reps": 16
+                "weight": 65,
+                "reps": 10
               }
             ],
             "note": ""
