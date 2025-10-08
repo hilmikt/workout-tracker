@@ -3163,16 +3163,16 @@
             "name": "Leg press",
             "sets": [
               {
-                "weight": 0,
-                "reps": 0
+                "weight": 110,
+                "reps": 15
               },
               {
-                "weight": 0,
-                "reps": 0
+                "weight": 130,
+                "reps": 10
               },
               {
-                "weight": 0,
-                "reps": 0
+                "weight": 130,
+                "reps": 10
               }
             ],
             "note": ""
