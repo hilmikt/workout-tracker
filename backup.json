@@ -3281,6 +3281,108 @@
           }
         ]
       }
+    ],
+    "2025-10-10": [
+      {
+        "category": "Chest",
+        "items": [
+          {
+            "id": "ex_r84745c",
+            "name": "Cable Fly",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 15
+              },
+              {
+                "weight": 20,
+                "reps": 7
+              },
+              {
+                "weight": 20,
+                "reps": 5
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_xmn7uxl",
+            "name": "Peck fly",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 12
+              },
+              {
+                "weight": 15,
+                "reps": 10
+              },
+              {
+                "weight": 15,
+                "reps": 9
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_pla2oy7",
+            "name": "Horizontal press",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 5
+              },
+              {
+                "weight": 12.5,
+                "reps": 9
+              },
+              {
+                "weight": 12.5,
+                "reps": 8
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_1uju1vk",
+            "name": "Decline DB press",
+            "sets": [
+              {
+                "weight": 12.5,
+                "reps": 15
+              },
+              {
+                "weight": 12.5,
+                "reps": 12
+              },
+              {
+                "weight": 12.5,
+                "reps": 10
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_z9oyqo3",
+            "name": "Incline bench press",
+            "sets": [
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
     ]
   },
   "stats": {
