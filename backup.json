@@ -3291,16 +3291,16 @@
             "name": "Cable Fly",
             "sets": [
               {
+                "weight": 20,
+                "reps": 6
+              },
+              {
                 "weight": 15,
-                "reps": 15
+                "reps": 10
               },
               {
-                "weight": 20,
-                "reps": 7
-              },
-              {
-                "weight": 20,
-                "reps": 5
+                "weight": 15,
+                "reps": 8
               }
             ],
             "note": ""
