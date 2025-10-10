@@ -3329,8 +3329,8 @@
             "name": "Horizontal press",
             "sets": [
               {
-                "weight": 15,
-                "reps": 5
+                "weight": 12.5,
+                "reps": 11
               },
               {
                 "weight": 12.5,
@@ -3338,7 +3338,7 @@
               },
               {
                 "weight": 12.5,
-                "reps": 8
+                "reps": 7
               }
             ],
             "note": ""
