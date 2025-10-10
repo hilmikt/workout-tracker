@@ -3311,7 +3311,7 @@
             "sets": [
               {
                 "weight": 15,
-                "reps": 12
+                "reps": 14
               },
               {
                 "weight": 15,
@@ -3319,7 +3319,7 @@
               },
               {
                 "weight": 15,
-                "reps": 9
+                "reps": 7
               }
             ],
             "note": ""
