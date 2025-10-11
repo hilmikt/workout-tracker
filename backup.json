@@ -3383,6 +3383,108 @@
           }
         ]
       }
+    ],
+    "2025-10-11": [
+      {
+        "category": "Back",
+        "items": [
+          {
+            "id": "ex_2ax9pc3",
+            "name": "Lat Pulldown",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 9
+              },
+              {
+                "weight": 30,
+                "reps": 9
+              },
+              {
+                "weight": 30,
+                "reps": 7
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_xkemmsy",
+            "name": "Seated Row",
+            "sets": [
+              {
+                "weight": 39,
+                "reps": 10
+              },
+              {
+                "weight": 39,
+                "reps": 10
+              },
+              {
+                "weight": 39,
+                "reps": 8
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_rnr9xa1",
+            "name": "Deadlift",
+            "sets": [
+              {
+                "weight": 40,
+                "reps": 5
+              },
+              {
+                "weight": 40,
+                "reps": 5
+              },
+              {
+                "weight": 40,
+                "reps": 5
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_frpslq9",
+            "name": "Horizontal row (single)",
+            "sets": [
+              {
+                "weight": 25,
+                "reps": 9
+              },
+              {
+                "weight": 25,
+                "reps": 8
+              },
+              {
+                "weight": 25,
+                "reps": 7
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_l2wc4ni",
+            "name": "Dumbbell row",
+            "sets": [
+              {
+                "weight": 17.5,
+                "reps": 11
+              },
+              {
+                "weight": 17.5,
+                "reps": 9
+              },
+              {
+                "weight": 17.5,
+                "reps": 8
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
     ]
   },
   "stats": {
