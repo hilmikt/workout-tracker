@@ -3451,15 +3451,15 @@
             "sets": [
               {
                 "weight": 25,
+                "reps": 10
+              },
+              {
+                "weight": 25,
                 "reps": 9
               },
               {
                 "weight": 25,
-                "reps": 8
-              },
-              {
-                "weight": 25,
-                "reps": 7
+                "reps": 9
               }
             ],
             "note": ""
