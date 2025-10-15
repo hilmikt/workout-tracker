@@ -2,20 +2,12 @@
   "exercises": {
     "Chest": [
       {
-        "id": "ex_xmn7uxl",
-        "name": "Peck fly"
+        "id": "ex_jp2s2wu",
+        "name": "Normal Pushups"
       },
       {
-        "id": "ex_pla2oy7",
-        "name": "Horizontal press"
-      },
-      {
-        "id": "ex_1uju1vk",
-        "name": "Decline DB press"
-      },
-      {
-        "id": "ex_z9oyqo3",
-        "name": "Incline bench press"
+        "id": "ex_lgry3fm",
+        "name": "Incline Pushups"
       }
     ],
     "Back": [
