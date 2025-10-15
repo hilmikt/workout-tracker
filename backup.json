@@ -8,13 +8,25 @@
       {
         "id": "ex_lgry3fm",
         "name": "Incline Pushups"
+      },
+      {
+        "id": "ex_cgyfpms",
+        "name": "Pike Pushups"
+      },
+      {
+        "id": "ex_c20disx",
+        "name": "Dips"
+      },
+      {
+        "id": "ex_as1j2b0",
+        "name": "Plank Shoulder Taps"
+      },
+      {
+        "id": "ex_ab9td1t",
+        "name": "Standard Plank"
       }
     ],
     "Back": [
-      {
-        "id": "ex_2ax9pc3",
-        "name": "Lat Pulldown"
-      },
       {
         "id": "ex_xkemmsy",
         "name": "Seated Row"
