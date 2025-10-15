@@ -52,54 +52,8 @@
         "name": "Superman Hold"
       }
     ],
-    "Arms": [
-      {
-        "id": "ex_4leml26",
-        "name": "Dumbbell curl"
-      },
-      {
-        "id": "ex_ssowwnt",
-        "name": "Preacher curl"
-      },
-      {
-        "id": "ex_yr3uedx",
-        "name": "Hammer (rope)"
-      },
-      {
-        "id": "ex_ttargiu",
-        "name": "Hammer dumbbell"
-      },
-      {
-        "id": "ex_dirxmrm",
-        "name": "Overhand grip"
-      },
-      {
-        "id": "ex_z9sgdar",
-        "name": "Underhand grip"
-      }
-    ],
-    "Shoulders": [
-      {
-        "id": "ex_roxnx6r",
-        "name": "Forehead row"
-      },
-      {
-        "id": "ex_9z3lefh",
-        "name": "Upright row"
-      },
-      {
-        "id": "ex_g4t4z1u",
-        "name": "Press machine"
-      },
-      {
-        "id": "ex_cq2dm6f",
-        "name": "Front raises plate"
-      },
-      {
-        "id": "ex_pvmj87c",
-        "name": "Shrugs"
-      }
-    ],
+    "Arms": [],
+    "Shoulders": [],
     "Legs": [
       {
         "id": "ex_p6fttj3",
@@ -127,10 +81,6 @@
       }
     ],
     "Forearms": [
-      {
-        "id": "ex_3apw1eu",
-        "name": "Wrist Curl"
-      },
       {
         "id": "ex_hi4u0tr",
         "name": "Reverse Curl"
