@@ -42,6 +42,14 @@
       {
         "id": "ex_p2k7t75",
         "name": "Towel Bicep Curls (resisting your own pull)"
+      },
+      {
+        "id": "ex_9mnbuj4",
+        "name": "Dead Hangs"
+      },
+      {
+        "id": "ex_pi1c692",
+        "name": "Superman Hold"
       }
     ],
     "Arms": [
@@ -93,10 +101,6 @@
       }
     ],
     "Legs": [
-      {
-        "id": "ex_dh8oclk",
-        "name": "Squat"
-      },
       {
         "id": "ex_a99ck9j",
         "name": "One-leg squat"
