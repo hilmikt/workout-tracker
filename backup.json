@@ -102,24 +102,8 @@
     ],
     "Legs": [
       {
-        "id": "ex_a99ck9j",
-        "name": "One-leg squat"
-      },
-      {
-        "id": "ex_54k3tfb",
-        "name": "Leg extension"
-      },
-      {
-        "id": "ex_wy8p2gj",
-        "name": "Lying leg curl"
-      },
-      {
-        "id": "ex_4ot1c42",
-        "name": "Calf raises seated"
-      },
-      {
-        "id": "ex_aiyot6y",
-        "name": "Leg press"
+        "id": "ex_p6fttj3",
+        "name": "Squats"
       }
     ],
     "Forearms": [
