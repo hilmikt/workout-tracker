@@ -82,12 +82,8 @@
     ],
     "Forearms": [
       {
-        "id": "ex_hi4u0tr",
-        "name": "Reverse Curl"
-      },
-      {
-        "id": "ex_5svwsbx",
-        "name": "Farmer's Carry"
+        "id": "ex_z5mcc39",
+        "name": "Gripper"
       }
     ]
   },
@@ -3437,6 +3433,108 @@
               {
                 "weight": 17.5,
                 "reps": 9
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "2025-10-16": [
+      {
+        "category": "Chest",
+        "items": [
+          {
+            "id": "ex_jp2s2wu",
+            "name": "Normal Pushups",
+            "sets": [
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_lgry3fm",
+            "name": "Incline Pushups",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 15
+              },
+              {
+                "weight": 15,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_c20disx",
+            "name": "Dips",
+            "sets": [
+              {
+                "weight": 18,
+                "reps": 18
+              },
+              {
+                "weight": 18,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_as1j2b0",
+            "name": "Plank Shoulder Taps",
+            "sets": [
+              {
+                "weight": 20,
+                "reps": 20
+              },
+              {
+                "weight": 20,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_ab9td1t",
+            "name": "Standard Plank",
+            "sets": [
+              {
+                "weight": 50,
+                "reps": 50
+              },
+              {
+                "weight": 50,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
               }
             ],
             "note": ""
