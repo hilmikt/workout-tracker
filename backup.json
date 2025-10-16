@@ -3540,6 +3540,30 @@
             "note": ""
           }
         ]
+      },
+      {
+        "category": "Forearms",
+        "items": [
+          {
+            "id": "ex_z5mcc39",
+            "name": "Gripper",
+            "sets": [
+              {
+                "weight": 100,
+                "reps": 100
+              },
+              {
+                "weight": 100,
+                "reps": 100
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          }
+        ]
       }
     ]
   },
