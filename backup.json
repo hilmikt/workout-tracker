@@ -3565,6 +3565,127 @@
           }
         ]
       }
+    ],
+    "2025-10-17": [
+      {
+        "category": "Back",
+        "items": [
+          {
+            "id": "ex_vus2v0r",
+            "name": "Reverse Plank Holds",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 30
+              },
+              {
+                "weight": 30,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_hkc59uo",
+            "name": "Back Widows",
+            "sets": [
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 12,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_9505adx",
+            "name": "Reverse Snow Angels (lying face-down)",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 15
+              },
+              {
+                "weight": 15,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_p2k7t75",
+            "name": "Towel Bicep Curls (resisting your own pull)",
+            "sets": [
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_9mnbuj4",
+            "name": "Dead Hangs",
+            "sets": [
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_pi1c692",
+            "name": "Superman Hold",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 30
+              },
+              {
+                "weight": 30,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
     ]
   },
   "stats": {
