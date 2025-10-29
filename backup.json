@@ -4799,6 +4799,127 @@
           }
         ]
       }
+    ],
+    "2025-10-29": [
+      {
+        "category": "Legs",
+        "items": [
+          {
+            "id": "ex_p6fttj3",
+            "name": "Squats",
+            "sets": [
+              {
+                "weight": 35,
+                "reps": 35
+              },
+              {
+                "weight": 35,
+                "reps": 35
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_x8ixdmi",
+            "name": "Lunges",
+            "sets": [
+              {
+                "weight": 23,
+                "reps": 23
+              },
+              {
+                "weight": 23,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_8boyqyl",
+            "name": "Glute Bridges",
+            "sets": [
+              {
+                "weight": 24,
+                "reps": 24
+              },
+              {
+                "weight": 24,
+                "reps": 24
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_xt34oil",
+            "name": "Calf Raises",
+            "sets": [
+              {
+                "weight": 40,
+                "reps": 40
+              },
+              {
+                "weight": 40,
+                "reps": 40
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_d58b931",
+            "name": "Wall Sit",
+            "sets": [
+              {
+                "weight": 50,
+                "reps": 50
+              },
+              {
+                "weight": 50,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_2lvrdoi",
+            "name": "Leg Raises",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 15
+              },
+              {
+                "weight": 15,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
     ]
   },
   "stats": {
