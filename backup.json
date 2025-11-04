@@ -38,15 +38,19 @@
       {
         "id": "ex_7t9joz7",
         "name": "Superman Pulls"
+      },
+      {
+        "id": "ex_1lz6ijz",
+        "name": "Prone Shoulder Squeezes"
+      },
+      {
+        "id": "ex_o29krii",
+        "name": "Towel Curls"
       }
     ],
     "Arms": [],
     "Shoulders": [],
     "Legs": [
-      {
-        "id": "ex_p6fttj3",
-        "name": "Squats"
-      },
       {
         "id": "ex_x8ixdmi",
         "name": "Lunges"
