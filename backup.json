@@ -2,24 +2,16 @@
   "exercises": {
     "Chest": [
       {
-        "id": "ex_lgry3fm",
-        "name": "Incline Pushups"
+        "id": "ex_0hbbdbw",
+        "name": "decline pushups"
       },
       {
-        "id": "ex_cgyfpms",
-        "name": "Pike Pushups"
+        "id": "ex_8157dr8",
+        "name": "archer pushups"
       },
       {
-        "id": "ex_c20disx",
-        "name": "Dips"
-      },
-      {
-        "id": "ex_as1j2b0",
-        "name": "Plank Shoulder Taps"
-      },
-      {
-        "id": "ex_ab9td1t",
-        "name": "Standard Plank"
+        "id": "ex_ijibntu",
+        "name": "dips (slow)"
       }
     ],
     "Back": [
