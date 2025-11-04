@@ -12,13 +12,21 @@
       {
         "id": "ex_ijibntu",
         "name": "dips (slow)"
+      },
+      {
+        "id": "ex_3wvygr5",
+        "name": "Pseudo Planche Lean Hold"
+      },
+      {
+        "id": "ex_3uhdiyi",
+        "name": "Pike Hold to Push-up"
+      },
+      {
+        "id": "ex_ckik4i2",
+        "name": "Side Plank"
       }
     ],
     "Back": [
-      {
-        "id": "ex_vus2v0r",
-        "name": "Reverse Plank Holds"
-      },
       {
         "id": "ex_hkc59uo",
         "name": "Back Widows"
