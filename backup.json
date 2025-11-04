@@ -52,24 +52,12 @@
     "Shoulders": [],
     "Legs": [
       {
-        "id": "ex_x8ixdmi",
-        "name": "Lunges"
+        "id": "ex_dnfwi75",
+        "name": "Jump Squats"
       },
       {
-        "id": "ex_8boyqyl",
-        "name": "Glute Bridges"
-      },
-      {
-        "id": "ex_xt34oil",
-        "name": "Calf Raises"
-      },
-      {
-        "id": "ex_d58b931",
-        "name": "Wall Sit"
-      },
-      {
-        "id": "ex_2lvrdoi",
-        "name": "Leg Raises"
+        "id": "ex_py5ayj3",
+        "name": "Bulgarian Split Squats"
       }
     ],
     "Forearms": [
