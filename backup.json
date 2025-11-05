@@ -58,6 +58,18 @@
       {
         "id": "ex_py5ayj3",
         "name": "Bulgarian Split Squats"
+      },
+      {
+        "id": "ex_idm2yxi",
+        "name": "Glute Bridge March"
+      },
+      {
+        "id": "ex_xtsa8af",
+        "name": "Wall Sit"
+      },
+      {
+        "id": "ex_e36iz88",
+        "name": "Calf Raises"
       }
     ],
     "Forearms": [
@@ -5252,6 +5264,127 @@
               },
               {
                 "weight": 15,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "2025-11-05": [
+      {
+        "category": "Chest",
+        "items": [
+          {
+            "id": "ex_0hbbdbw",
+            "name": "decline pushups",
+            "sets": [
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_8157dr8",
+            "name": "archer pushups",
+            "sets": [
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_ijibntu",
+            "name": "dips (slow)",
+            "sets": [
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 12,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_3wvygr5",
+            "name": "Pseudo Planche Lean Hold",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 30
+              },
+              {
+                "weight": 30,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_3uhdiyi",
+            "name": "Pike Hold to Push-up",
+            "sets": [
+              {
+                "weight": 8,
+                "reps": 8
+              },
+              {
+                "weight": 8,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_ckik4i2",
+            "name": "Side Plank",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 30
+              },
+              {
+                "weight": 30,
                 "reps": 0
               },
               {
