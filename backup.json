@@ -5396,6 +5396,108 @@
           }
         ]
       }
+    ],
+    "2025-11-06": [
+      {
+        "category": "Back",
+        "items": [
+          {
+            "id": "ex_2h0r6u2",
+            "name": "Isometric Towel Rows",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 10
+              },
+              {
+                "weight": 10,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_x3tb8ii",
+            "name": "Reverse Plank Single-Leg Hold",
+            "sets": [
+              {
+                "weight": 30,
+                "reps": 30
+              },
+              {
+                "weight": 30,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_7t9joz7",
+            "name": "Superman Pulls",
+            "sets": [
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 12,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_1lz6ijz",
+            "name": "Prone Shoulder Squeezes",
+            "sets": [
+              {
+                "weight": 12,
+                "reps": 12
+              },
+              {
+                "weight": 12,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_o29krii",
+            "name": "Towel Curls",
+            "sets": [
+              {
+                "weight": 16,
+                "reps": 16
+              },
+              {
+                "weight": 16,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
     ]
   },
   "stats": {
