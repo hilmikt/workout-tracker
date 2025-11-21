@@ -5619,6 +5619,127 @@
           }
         ]
       }
+    ],
+    "2025-11-21": [
+      {
+        "category": "Chest",
+        "items": [
+          {
+            "id": "ex_0hbbdbw",
+            "name": "decline pushups",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 15
+              },
+              {
+                "weight": 15,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_8157dr8",
+            "name": "archer pushups",
+            "sets": [
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_ijibntu",
+            "name": "dips (slow)",
+            "sets": [
+              {
+                "weight": 15,
+                "reps": 15
+              },
+              {
+                "weight": 15,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_3wvygr5",
+            "name": "Pseudo Planche Lean Hold",
+            "sets": [
+              {
+                "weight": 40,
+                "reps": 40
+              },
+              {
+                "weight": 40,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_3uhdiyi",
+            "name": "Pike Hold to Push-up",
+            "sets": [
+              {
+                "weight": 10,
+                "reps": 10
+              },
+              {
+                "weight": 10,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          },
+          {
+            "id": "ex_ckik4i2",
+            "name": "Side Plank",
+            "sets": [
+              {
+                "weight": 35,
+                "reps": 35
+              },
+              {
+                "weight": 35,
+                "reps": 0
+              },
+              {
+                "weight": 0,
+                "reps": 0
+              }
+            ],
+            "note": ""
+          }
+        ]
+      }
     ]
   },
   "stats": {
